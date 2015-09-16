@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Phe Rechner | Zwischenspeicher</title>
+<meta name="description" content="Phe Rechner | Zwischenspeicher">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="greenback">
+<div class="wrapper-green-light fadeInDown animated">
+  <div class="content-dark">
+    <img id="pkuimg" src="pku.png" width="25" height="25">
+    <div class="barbuttons">
+      <a class="link toplink recolor" href="index.html">Rechner</a>
+      <a class="link toplink darklink" href="suche.html">Suche</a>
+      <a class="link toplink zwlmbcolor" href="zwischen.html">ZWS</a>
+      <a class="link toplink lmbcolor" href="lebensmittel.html">LMS</a>
+    </div>
+    <div style="clear:both;"></div>
+  </div>
+</div>
+<div class="wrapper-green fadeInDown animated">
+  <div class="content-dark">
+    <p class="lmspeicher bold">Zwischenspeicher</p>
+    <div style="clear:both;"></div>
+  </div>
+</div>
+<div class="wrapper-green-light lightSpeedIn animated">
+  <div class="content">
+    <form name="pherechner">
+      <p>Ich habe <input type="number" name="phe" placeholder="Wert" onfocus="this.value='';"> g</p>
+      <p><input type="text" name="name" placeholder="Lebensmittel" onfocus="this.value='';"> gegessen.</p>
+      <br>
+      <p><input class="linkbutton zwlmbcolor" type="button" name="speichern" value="Speichern" onclick="hiNzufugen()"></p>
+    </form>
+  </div>
+</div>
+<div class="wrapper-white">
+  <div class="content">
+    <form name="pheplan">
+      <h3>Lebensmittel</h3>
+      <br>
+      <p id="lebensmittel" onclick="derSpeicher(event)"></p>
+    </form>
+  </div>
+</div>
+<div class="wrapper-light">
+  <div class="content">
+    <form name="pheeinstellungen">
+      <h3>Weitere Optionen</h3>
+      <br>
+      <p>Kein Komma auf Tastatur?</p>
+      <p><input class="simplebutton" type="button" name="komma" value="Komma bei Wert hinzufügen" onclick="koMma()"></p>
+      <p><input class="simplebutton" type="button" name="taglistereset" value="Zwischenspeicher Reset" onclick="tagListereset()"></p>
+    </form>
+  </div>
+</div>
+<div class="wrapper-dark">
+  <div class="content-dark">
+    <div class="linkdiv">
+      <a class="link help" href="hilfe.html">Hilfe</a>
+      <a class="link about" href="ueber.html">Über</a>
+    </div>
+  </div>
+</div>
+<script src="zwischen.js"></script>
+</body>
+</html>
