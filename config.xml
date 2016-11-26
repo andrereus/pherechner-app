@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.endofweb.pherechner"
+        version   = "4.0.1">
+
+    <name>Phe Rechner</name>
+
+    <description>
+        PKU App, die Taschenrechner, Bleistift, Papier und Nährwerttabellen kombiniert.
+    </description>
+
+    <author href="http://andrereus.de" email="andre6193@gmail.com">
+        Andre Reus
+    </author>
+
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+
+    <preference name="permissions" value="none"/>
+
+    <icon src="icon.png" />
+    <icon src="icon/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi"/>
+    <icon src="icon/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi"/>
+    <icon src="icon/icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi"/>
+    <icon src="icon/icon-96-xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi"/>
+    <icon src="icon/windows.png"        gap:platform="winphone"/>
+    <icon src="icon/windows.png"        gap:platform="winphone"   gap:role="background"/>
+
+    <access origin="*"/>
+
+</widget>
