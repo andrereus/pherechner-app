@@ -3,7 +3,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.endofweb.pherechner"
-        version   = "4.0.1">
+        version   = "4.0.2">
 
     <name>Phe Rechner</name>
 
@@ -11,7 +11,7 @@
         PKU App, die Taschenrechner, Bleistift, Papier und Nährwerttabellen kombiniert.
     </description>
 
-    <author href="http://andrereus.de" email="andre6193@gmail.com">
+    <author href="http://pherechner.de" email="mail@pkumanager.com">
         Andre Reus
     </author>
 
