@@ -1,0 +1,10 @@
+{
+  "appId": "com.endofweb.pherechner",
+  "appName": "Phe Rechner",
+  "webDir": "src",
+  "plugins": {
+    "EdgeToEdge": {
+      "backgroundColor": "#dee3e3"
+    }
+  }
+}
